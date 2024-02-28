@@ -495,3 +495,104 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    /* Adjustments for smaller screens */
+
+    body {
+        font-size: 14px; /* Adjust font size for better readability on smaller screens */
+    }
+
+    header {
+        text-align: center; /* Center-align header items for better mobile display */
+    }
+
+    .menuList {
+        display: none; /* Hide the menu list by default on smaller screens */
+        flex-direction: column; /* Stack menu items vertically */
+        text-align: center; /* Center-align menu items for better mobile display */
+    }
+
+    .menuList li {
+        margin-bottom: 10px; /* Add spacing between menu items */
+    }
+
+    .topDiv h1 {
+        font-size: 24px; /* Adjust heading font size for smaller screens */
+    }
+
+    .topDivPara {
+        font-size: 14px; /* Adjust paragraph font size for better readability on smaller screens */
+    }
+
+    .btn.topDivBtn {
+        font-size: 16px; /* Adjust button font size for better mobile display */
+    }
+
+    .servicesWeDoheader {
+        font-size: 24px; /* Adjust heading font size for smaller screens */
+    }
+
+    .wrapper {
+        flex-direction: column; /* Stack service items vertically */
+    }
+
+    .parent {
+        margin-bottom: 10px; /* Add spacing between service items */
+    }
+
+    .sectionTopParaHeader,
+    .sectionBottomTextHeadear,
+    .whenItComesHeader,
+    .iconsTopHeader,
+    .iconsHeader,
+    .sheduleApointmentTextContainer h2,
+    .fullServiceListContainer h2,
+    .mapHeading,
+    .formHeading {
+        font-size: 24px; /* Adjust heading font size for smaller screens */
+    }
+
+    .sectionTopPara,
+    .sectionBottomTextPara,
+    .WhenItComesPara,
+    .textAfterIcon,
+    .sheduleText,
+    .mapPara {
+        font-size: 14px; /* Adjust paragraph font size for better readability on smaller screens */
+    }
+
+    .iconsContainer {
+        flex-direction: column; /* Stack icons vertically */
+    }
+
+    .fullServiceCard ul li {
+        font-size: 14px; /* Adjust list item font size for better readability on smaller screens */
+    }
+
+    .leaveUsmessage form label,
+    .leaveUsmessage form input,
+    .leaveUsmessage form textarea,
+    .leaveUsmessage form button {
+        width: 100%; /* Make form elements full-width on smaller screens */
+    }
+
+    footer {
+        flex-direction: column; /* Stack footer items vertically */
+        text-align: center; /* Center-align footer items for better mobile display */
+    }
+
+    .menu ul {
+        margin-top: 10px; /* Add spacing between menu items */
+    }
+
+    .phoneNumber {
+        margin-top: 10px; /* Add spacing between phone number and address */
+    }
+
+    .workingHours p {
+        margin-top: 10px; /* Add spacing between working hours and other footer items */
+    }
+}
