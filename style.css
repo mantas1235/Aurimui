@@ -496,51 +496,36 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+/*/////////////////////Media querys*/
 
-@media only screen and (max-width: 768px) {
+/* Default styles for larger screens */
 
-    /* Adjustments for smaller screens */
+/* Add your existing styles here */
+
+/* Common styles for all screen sizes */
+
+
+/* Media query for screens smaller than 375px (smaller smartphones) */
+@media only screen and (max-width: 375px) {
 
     body {
-        font-size: 14px; /* Adjust font size for better readability on smaller screens */
-    }
-
-    header {
-        text-align: center; /* Center-align header items for better mobile display */
-    }
-
-    .menuList {
-        display: none; /* Hide the menu list by default on smaller screens */
-        flex-direction: column; /* Stack menu items vertically */
-        text-align: center; /* Center-align menu items for better mobile display */
-    }
-
-    .menuList li {
-        margin-bottom: 10px; /* Add spacing between menu items */
+        font-size: 14px;
     }
 
     .topDiv h1 {
-        font-size: 24px; /* Adjust heading font size for smaller screens */
+        font-size: 20px;
     }
 
     .topDivPara {
-        font-size: 14px; /* Adjust paragraph font size for better readability on smaller screens */
+        font-size: 12px;
     }
 
     .btn.topDivBtn {
-        font-size: 16px; /* Adjust button font size for better mobile display */
+        font-size: 14px;
     }
 
     .servicesWeDoheader {
-        font-size: 24px; /* Adjust heading font size for smaller screens */
-    }
-
-    .wrapper {
-        flex-direction: column; /* Stack service items vertically */
-    }
-
-    .parent {
-        margin-bottom: 10px; /* Add spacing between service items */
+        font-size: 20px;
     }
 
     .sectionTopParaHeader,
@@ -552,7 +537,7 @@ input::-webkit-inner-spin-button {
     .fullServiceListContainer h2,
     .mapHeading,
     .formHeading {
-        font-size: 24px; /* Adjust heading font size for smaller screens */
+        font-size: 20px;
     }
 
     .sectionTopPara,
@@ -561,38 +546,129 @@ input::-webkit-inner-spin-button {
     .textAfterIcon,
     .sheduleText,
     .mapPara {
-        font-size: 14px; /* Adjust paragraph font size for better readability on smaller screens */
-    }
-
-    .iconsContainer {
-        flex-direction: column; /* Stack icons vertically */
+        font-size: 12px;
     }
 
     .fullServiceCard ul li {
-        font-size: 14px; /* Adjust list item font size for better readability on smaller screens */
+        font-size: 12px;
     }
 
     .leaveUsmessage form label,
     .leaveUsmessage form input,
     .leaveUsmessage form textarea,
     .leaveUsmessage form button {
-        width: 100%; /* Make form elements full-width on smaller screens */
+        width: 100%;
+    }
+}
+
+/* Media query for screens between 376px and 414px (standard smartphones) */
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+
+    body {
+        font-size: 14px;
     }
 
-    footer {
-        flex-direction: column; /* Stack footer items vertically */
-        text-align: center; /* Center-align footer items for better mobile display */
+    .topDiv h1 {
+        font-size: 18px;
     }
 
-    .menu ul {
-        margin-top: 10px; /* Add spacing between menu items */
+    .topDivPara {
+        font-size: 12px;
     }
 
-    .phoneNumber {
-        margin-top: 10px; /* Add spacing between phone number and address */
+    .btn.topDivBtn {
+        font-size: 14px;
     }
 
-    .workingHours p {
-        margin-top: 10px; /* Add spacing between working hours and other footer items */
+    .servicesWeDoheader {
+        font-size: 18px;
+    }
+
+    .sectionTopParaHeader,
+    .sectionBottomTextHeadear,
+    .whenItComesHeader,
+    .iconsTopHeader,
+    .iconsHeader,
+    .sheduleApointmentTextContainer h2,
+    .fullServiceListContainer h2,
+    .mapHeading,
+    .formHeading {
+        font-size: 18px;
+    }
+
+    .sectionTopPara,
+    .sectionBottomTextPara,
+    .WhenItComesPara,
+    .textAfterIcon,
+    .sheduleText,
+    .mapPara {
+        font-size: 12px;
+    }
+
+    .fullServiceCard ul li {
+        font-size: 12px;
+    }
+
+    .leaveUsmessage form label,
+    .leaveUsmessage form input,
+    .leaveUsmessage form textarea,
+    .leaveUsmessage form button {
+        width: 100%;
+    }
+}
+
+/* Media query for screens between 415px and 600px (larger smartphones and small tablets) */
+@media only screen and (min-width: 415px) and (max-width: 600px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .topDiv h1 {
+        font-size: 18px;
+    }
+
+    .topDivPara {
+        font-size: 12px;
+    }
+
+    .btn.topDivBtn {
+        font-size: 14px;
+    }
+
+    .servicesWeDoheader {
+        font-size: 18px;
+    }
+
+    .sectionTopParaHeader,
+    .sectionBottomTextHeadear,
+    .whenItComesHeader,
+    .iconsTopHeader,
+    .iconsHeader,
+    .sheduleApointmentTextContainer h2,
+    .fullServiceListContainer h2,
+    .mapHeading,
+    .formHeading {
+        font-size: 18px;
+    }
+
+    .sectionTopPara,
+    .sectionBottomTextPara,
+    .WhenItComesPara,
+    .textAfterIcon,
+    .sheduleText,
+    .mapPara {
+        font-size: 12px;
+    }
+
+    .fullServiceCard ul li {
+        font-size: 12px;
+    }
+
+    .leaveUsmessage form label,
+    .leaveUsmessage form input,
+    .leaveUsmessage form textarea,
+    .leaveUsmessage form button {
+        width: 100%;
     }
 }
