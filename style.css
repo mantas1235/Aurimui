@@ -21,7 +21,7 @@ header {
 
 
 .menuLogo {
-    width: 150px;
+    width: 100px;
     margin-left: 50px;
     opacity: 0.8;
 }
@@ -30,9 +30,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 16px;
     margin-right: 60px;
-    gap: 30px;
+    gap: 50px;
 }
 
 .menuList li {
@@ -45,13 +45,13 @@ header {
 
 }
 
-.topColor {
+ .topColor {
     width: 100%;
     height: 100%;
     background-color: #2721214a;
     z-index: 12;
     position: absolute;
-}
+} 
 
 .topDiv {
     position: relative;
@@ -60,7 +60,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("./images/7198b8_b2411ae61f1a497387f6c74e6d1369f3~mv2.gif");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -84,7 +83,7 @@ background-color: transparent;
     padding: 15px 70px;
 z-index: 50;
 color: white;
-font-size: 25px;
+font-size: 16px;
     border-radius: 15px;
     cursor: pointer;
     transition: all 0,5s ease-in-out;
@@ -98,7 +97,6 @@ font-size: 25px;
     background-color: black;
     color: orangered;
     transition: all 0,2s ease-in-out;
-    transform:scale(1.1);
 }
 
 .services {
@@ -211,13 +209,14 @@ margin-top: 100px;
 .sectionPhoto {
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 700px;
+    max-width: 100%;
 }
 
 .sectionTopParaContainer {
     width: 50%;
     text-align: center;
-    height: 550px;
+    height: 750px;
     background-color: rgb(255, 255, 255);
     position: absolute;
     top: -25px;
@@ -277,8 +276,8 @@ margin-top: 80px;
 }
 
 .WhenItComesContainer {
-    background: rgb(110,45,4);
-    background: linear-gradient(90deg, rgba(110,45,4,1) 0%, rgba(0,0,0,1) 0%, rgba(57,27,0,1) 82%);
+    background: rgb(148, 1, 1);
+    background: linear-gradient(90deg, rgba(110,45,4,1) 0%, rgba(0,0,0,1) 0%, rgb(135, 0, 0) 82%);
     color: rgb(255, 255, 255);
     padding: 50px;
 }
@@ -352,10 +351,11 @@ i {
     flex-direction: column;
     align-items: center;
     height: 500px;
-    background: rgb(110,45,4);
-    background: linear-gradient(90deg, rgba(110,45,4,1) 0%, rgba(0,0,0,1) 0%, rgba(57,27,0,1) 82%);
+    background: rgb(148, 1, 1);
+    background: linear-gradient(90deg, rgba(110,45,4,1) 0%, rgba(0,0,0,1) 0%, rgb(135, 0, 0) 82%);
     color: rgb(255, 255, 255);
     padding: 50px;
+
 }
 .widthContainer {
     width: 75%;
@@ -364,10 +364,9 @@ i {
 .TextButton {
     display: flex;
     justify-content: space-between;
- 
     align-items: center;
     margin-bottom: 20px;
-    width: 90%;
+    width: 100%;
 }
 
 .sheduleApointmentTextContainer {
@@ -514,7 +513,8 @@ input::-webkit-inner-spin-button {
 
 .footerContainer {
     display: flex;
-    background-color: #000000;
+    background: rgb(148, 1, 1);
+    background: linear-gradient(90deg, rgba(110,45,4,1) 0%, rgba(0,0,0,1) 0%, rgb(135, 0, 0) 82%);
     color: white;
     justify-content: space-around;
 align-items: center;
@@ -560,6 +560,25 @@ align-items: center;
     gap: 20px;
     font-size: 12px;
 }
+
+
+.blue {
+    font-size: 20px;
+    color:#4267B2;
+    margin-left: 15px;
+}
+
+
+.insta {
+    font-size: 20px;
+    margin-left: 15px;
+}
+.red {
+    font-size: 20px;
+    margin-left: 15px;
+    color: red;
+}
+
 /*/////////////////////Media querys*/
 
 /* Default styles for larger screens */
